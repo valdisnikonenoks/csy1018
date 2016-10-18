@@ -1,8 +1,10 @@
+/* This is a comment */
 * {
   margin: 10 10;
   padding: 0;
 }
 
+/* Base typography */
 body {
   font-family: helvetica,arial,sans-serif;
   font-size: 14px;
@@ -10,5 +12,26 @@ body {
   background-color: rgb(129, 164, 191);
   padding: 30px;
   color: #333;
-  
+
+}
+
+
+/* heading styling*/
+h1,h2,h3 {
+  margin-bottom: 21px;
+}
+
+h1 {
+
+  font-size: 36px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+
 }
