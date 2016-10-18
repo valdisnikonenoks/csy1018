@@ -1,0 +1,14 @@
+* {
+  margin: 10 10;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica,arial,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: rgb(129, 164, 191);
+  padding: 30px;
+  color: #333;
+  
+}
