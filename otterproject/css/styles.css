@@ -1,0 +1,35 @@
+h1
+
+{
+  font-family: 'Comfortaa', cursive;
+}
+
+body
+{
+background-color: rgb(149, 194, 215);
+font-size: 10px;
+}
+
+a
+{
+  text-decoration: none;
+
+}
+
+.logo-text {
+  background: white;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 37px;
+
+}
+.thumbnail-item {
+  border: 1px solid rgba(100%,100%,100%,0.8);
+}
+
+/* delete img when done */
+img {
+width: 600px;
+height: 400px;
+}

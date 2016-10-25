@@ -1,0 +1,55 @@
+/* This is a comment */
+* {
+  margin: 10 5;
+  padding: 0;
+}
+
+/* Base typography */
+body {
+  font-family: 'Coda', cursive;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: white;
+  padding: 20px;
+  color: #333;
+
+}
+/* IDS for dividers */
+
+
+img {
+  float: right;
+}
+
+
+
+
+/* heading styling*/
+
+
+h1 {
+  margin-bottom: 21px;
+  font-size: 36px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+    margin-bottom: 21px;
+}
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+    margin-bottom: 21px;
+    text-align: center;
+
+}
+
+nav li {
+  float: right;
+color: black;
+text-align: center;
+  margin: 0;
+  padding: 14px 10px;
+  display:inline
+}
