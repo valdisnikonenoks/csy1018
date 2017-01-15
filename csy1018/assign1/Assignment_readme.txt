@@ -1,6 +1,3 @@
-# csy1018
-class projects
-
 a.Valdis Nikonenoks
 b.Student number - 16438474
 c.https://valdisnikonenoks.github.io/csy1018/

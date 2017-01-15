@@ -1,6 +1,6 @@
 a.Valdis Nikonenoks
 b.Student number - 16438474
-c.https://github.com/valdisnikonenoks/csy1018.git
+c.https://valdisnikonenoks.github.io/csy1018/
 d.Assignment 1: Web Development
 e.Submission Date 15/01/2017
 
