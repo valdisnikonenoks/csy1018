@@ -1,4 +1,4 @@
-
+/** I used css we did in class for base of this project*/
 body {
 
 
@@ -15,7 +15,7 @@ body {
 
 
 .nav {
-  order: -1; /* move nav to the top*/
+  order: -1; /* move nav to the top*/  /** used this tutorial for navigation bar http://www.w3schools.com/css/css_navbar.asp */
   padding: 1em;
   background: white;
   font-family: 'Handlee', cursive;
@@ -75,7 +75,7 @@ h1 {
   display: flex;
 }
 
-.left-half {
+.left-half { /** Used css tricks half and half (https://css-tricks.com/left-and-right/ ) and teachers half and half codepen */
   background-color: rgb(173, 213, 231);
   flex: 1;
   padding: 1rem;

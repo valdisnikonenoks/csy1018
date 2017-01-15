@@ -1,5 +1,5 @@
 
-
+/** I used css we did in class for base of this project*/
 
 body {
   color: #000000;
@@ -11,7 +11,7 @@ body {
 
 }
 .nav {
-  order: -1; /* move nav to the top*/
+  order: -1; /* move nav to the top*/  /** used this tutorial for navigation bar http://www.w3schools.com/css/css_navbar.asp */
   padding: 1em;
   background: white;
   font-family: 'Handlee', cursive;
@@ -21,11 +21,11 @@ body {
 
 }
 a {
-    color: black;
+    color: black; /** used this tutorial for navigation bar http://www.w3schools.com/css/css_navbar.asp */
     text-decoration: none;
 }
 
-a:hover
+a:hover  /** used this tutorial for navigation bar http://www.w3schools.com/css/css_navbar.asp */
 {
      color:#00A0C6;
      text-decoration:none;
@@ -44,12 +44,12 @@ h1 {
 
 
 
-.container {
+.container { /** Used css tricks half and half and teachers 2 side codepen */
   display: -ms-grid;
   -ms-grid-columns: 50% auto;
 }
 
-.left-half {
+.left-half { /** Used css tricks half and half and teachers 2 side codepen */
   background: rgb(199, 219, 240);
   -ms-grid-column: 1;
   -ms-grid-row: 1;
@@ -58,7 +58,7 @@ h1 {
 
 }
 
-.right-half {
+.right-half {/** Used css tricks half and half and teachers 2 side codepen */ /** Used css tricks half and half (https://css-tricks.com/left-and-right/ ) and teachers half and half codepen */
   background: rgb(199, 219, 240);
   -ms-grid-column: 2;
   -ms-grid-row: 1;
@@ -72,7 +72,7 @@ h1 {
 }
 
 
-form {
+form { /** Used both teacher codepen tutorials for form */
   border: solid black 5px;
   padding: 1em;
   width: 40%; margin:0 auto;
@@ -81,25 +81,25 @@ form {
   text-align: center;
 
 }
-.form-title {
+.form-title { /** Used both teacher codepen tutorials for form */
   margin-top: 0;
 
 }
 
-.form-group {
+.form-group {  /** Used both teacher codepen tutorials for form */
   margin-bottom: 0.5em;
 
 }
 
-textarea {
+textarea {  /** Used both teacher codepen tutorials for form */
   width: 96%;
   resize: none;
 
 }
 
-fieldset {
+fieldset { /** Used both teacher codepen tutorials for form */
   width: inherit;
 }
-.option-list {
+.option-list {  /** Used both teacher codepen tutorials for form */
   display: inline-block;
 }

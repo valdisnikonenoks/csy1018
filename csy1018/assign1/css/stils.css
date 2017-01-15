@@ -1,6 +1,6 @@
 
 
-
+/** I used css we did in class for base of this project*/
 body {
   color: #000000;
   font: 'Handlee', cursive;
@@ -10,7 +10,7 @@ body {
   text-align: center;
 
 }
-.nav {
+.nav {  /** used this tutorial for navigation bar http://www.w3schools.com/css/css_navbar.asp */
   order: -1; /* move nav to the top*/
   padding: 1em;
   background: white;
@@ -43,23 +43,22 @@ h1 {
 }
 
 
-.container {
+.container { /** Used css tricks half and half and teachers 2 side codepen */
   display: flex;
 }
-
+ /** Used css tricks half and half and teachers 2 side codepen */
 .left-half {
   background-color: rgb(199, 219, 240);
   flex: 1;
   padding: 1rem;
 }
 
-.right-half {
+.right-half { /** Used css tricks half and half (https://css-tricks.com/left-and-right/ ) and teachers half and half codepen */
   background-color: rgb(199, 219, 240);
   flex: 1;
   padding: 1rem;
 }
 .footer {
-  padding: 1em;
   background: rgb(28,83,110);
   text-align: center;
   text-decoration-color: white;
