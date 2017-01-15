@@ -1,0 +1,129 @@
+
+body {
+
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* vertical height */
+  margin: 0;
+  line-height: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5em; /*about 15 pixels*/
+  text-shadow: 0 2px 2px rgba(128, 137, 142, 0.78);
+}
+
+
+.nav {
+  order: -1; /* move nav to the top*/
+  padding: 1em;
+  background: white;
+  font-family: 'Handlee', cursive;
+
+    color: black;
+    text-decoration: none;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+
+
+.footer {
+  padding: 1em;
+  background: rgb(28,83,110);
+  text-align: center;
+
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+
+}
+.main {
+
+
+
+}
+
+
+
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-color: rgb(173, 213, 231);
+  flex: 1;
+  padding: 1rem;
+  padding: 1em;
+  text-align: center;
+  font: 'Handlee', cursive;
+  font-family: 'Handlee', cursive;
+  image-orientation: center;
+
+}
+
+.right-half {
+  background-color: rgb(173, 213, 231);
+  flex: 1;
+  padding: 1rem;
+}
+
+
+}
+@media (max-width: 30em)
+{
+.main{
+  flex: 1 0 auto;
+
+  }
+}
+  @media (min-width: 30em) {
+    .nav {
+      display:block;
+    }
+    .wrapper {
+      flex-direction: row;
+    }
+    .left-half {
+      flex:1 1 auto;
+
+    }
+    .right-half {
+      width: 20%;
+    }
+  }
+
+
+
+
+
+
+
+
+h3 {
+  margin: 1em;
